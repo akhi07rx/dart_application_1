@@ -14,6 +14,7 @@ void main() {
   /// data = 'hello';
 
   /// here data1 is string
+  // ignore: unused_local_variable
   dynamic data1 = "Hello";
 
   ///now the data1 is string
