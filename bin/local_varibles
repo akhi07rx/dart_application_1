@@ -1,0 +1,19 @@
+///local variable -> locally declared variables
+///               -> create inside the function / constructor / blocks
+///               -> locally variable cannot be accessed from outside the function / constructor / blocks
+
+// user defined function
+
+void myFunction()
+{
+
+  int a = 100, b = 200;
+  print('sum = { a + b }');
+
+}
+
+void main()
+{
+  myFunction();
+
+}
