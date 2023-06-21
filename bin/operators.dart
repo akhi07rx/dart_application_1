@@ -58,4 +58,9 @@ void main() {
   print(username == "Admin" && password == 123456); //false && true = false
   print(username == "Admin" || password == 123456); //false || true = true
   print(!(username == "Admin") && password == 123456); //!false && true = true
+
+  /// 6.BITWISE OPERATOR
+  /// 7. SHIFT OPERATOR
+
+  /// 8. TERNARY OPERATOR / CONDITIONAL OPERATOR
 }
