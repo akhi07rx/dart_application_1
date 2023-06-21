@@ -51,4 +51,11 @@ void main() {
   print("");
 
   /// 5. LOGICAL OPERATOR = && || !
+
+  String username = "admin";
+  int password = 123456;
+
+  print(username == "Admin" && password == 123456); //false && true = false
+  print(username == "Admin" || password == 123456); //false || true = true
+  print(!(username == "Admin") && password == 123456); //!false && true = true
 }
