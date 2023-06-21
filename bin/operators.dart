@@ -63,4 +63,8 @@ void main() {
   /// 7. SHIFT OPERATOR
 
   /// 8. TERNARY OPERATOR / CONDITIONAL OPERATOR
+
+  int age = 18;
+  var result = age >= 18 ? "Eligible to Vote" : 0;
+  print(result);
 }
