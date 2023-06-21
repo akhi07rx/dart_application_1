@@ -47,4 +47,8 @@ void main() {
   print(j != k);
   print(j >= k);
   print(j <= k);
+
+  print("");
+
+  /// 5. LOGICAL OPERATOR = && || !
 }
