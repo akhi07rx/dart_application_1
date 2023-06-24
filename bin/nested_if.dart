@@ -2,7 +2,6 @@
 
 void main() {
   print("Hi User");
-  int age = 17;
 
   /// nested if
 
