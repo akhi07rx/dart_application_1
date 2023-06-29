@@ -1,6 +1,19 @@
 // main function / builtin function
 
-void main() {}
+void main() {
+  func1();
+  fun2(10, 20);
+  print(func3());
+  //or
+  int data_from_func3 = func3();
+  print(
+      'Function 3 => $data_from_func3'); // value returned from fun3 stored in data_from_fuc3 and print statement from func3  executed
+  print(func4("AKHI", 20));
+
+  //or
+  String data_from_func4 = func4("AKX", 20);
+  print('Function 4 => $data_from_func4');
+}
 
 ///user defined function
 //1. function without return type and arguments (default function with return type)
@@ -26,5 +39,5 @@ int func3() {
 // function with return type and with arguments (parameterized function with return type)
 String func4(String name, int age) {
   String data = 'My name is $name, i am $age yrs old';
-  return data; // cannot return more than one value
+  return data;
 }
