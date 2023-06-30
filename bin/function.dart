@@ -18,7 +18,7 @@ void main() {
 ///user defined function
 //1. function without return type and arguments (default function with return type)
 
-void func1() {
+void func1(String s, [String s]) {
   print('inside function 1');
 }
 
