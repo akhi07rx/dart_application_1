@@ -1,6 +1,37 @@
-int amt1 = 10;
-var amt2 = 20;
+import 'dart:io';
 
-main() {
-  print('Amount1: $amt1\nAmount2: $amt2');
+void main() {
+  print("Enter the first number: ");
+  int a = int.parse(stdin.readLineSync()!);
+
+  print("Enter the second number: ");
+  int b = int.parse(stdin.readLineSync()!);
+
+  sum(a, b);
+  sub(a, b);
+  mul(a, b);
+  div(a, b);
+}
+
+int sum(int a, int b) {
+  int sum = a + b;
+  print("Sum = $sum");
+  return 0;
+}
+
+int sub(int a, int b) {
+  int sub = a - b;
+  print("SUb = $sub");
+  return 0;
+}
+
+void div(int a, int b) {
+  double div = a / b;
+  print("Div = $div");
+}
+
+int mul(int a, int b) {
+  int mul = a * b;
+  print("MUL = $mul");
+  return 0;
 }
