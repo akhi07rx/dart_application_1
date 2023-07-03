@@ -3,6 +3,7 @@ void func1(String name, int age, [int? phone, String? email]) {
   print("Age=$age");
   print("Phone=$phone");
   print("Email=$email");
+  print("\n");
 }
 
 void func2(String name, {int? age, int? phone, String? email}) {
@@ -10,6 +11,7 @@ void func2(String name, {int? age, int? phone, String? email}) {
   print("Age=$age");
   print("Phone=$phone");
   print("Email=$email");
+  print("\n");
 }
 
 void func3(String name, {int? age, required int phone, required String email}) {
@@ -17,6 +19,7 @@ void func3(String name, {int? age, required int phone, required String email}) {
   print("Age=$age");
   print("Phone=$phone");
   print("Email=$email");
+  print("\n");
 }
 
 void func4(String name,
@@ -28,6 +31,7 @@ void func4(String name,
   print("Phone=$phone");
   print("Email=$email");
   print("Year=$year");
+  print("\n");
 }
 
 void main() {
