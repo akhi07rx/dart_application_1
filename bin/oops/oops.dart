@@ -2,7 +2,14 @@ class Parent {
   String fathername = "Raju";
 }
 
-class Child {
+void details(int age, int phone, String job) {
+  print("Father Job Details");
+  print("age : $age");
+  print("phone : $phone");
+  print("job : $job");
+}
+
+class child extends Parent {
   String childname = "AKHI";
 }
 
