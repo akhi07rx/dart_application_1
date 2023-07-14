@@ -1,6 +1,6 @@
 abstract class School {
   void scdetails(
-      String schoolname, double mark1, String Schoolname2, double mark2);
+      String schoolname, double mark1, String schoolname2, double mark2);
 }
 
 abstract class College {
@@ -30,11 +30,11 @@ class Personal implements School, College, Experience {
 
   @override
   void scdetails(
-      String schoolname, double mark1, String Schoolname2, double mark2) {
+      String schoolname, double mark1, String schoolname2, double mark2) {
     print("SCHOOL DETAILS: \n");
     print("10th STD School Name: $schoolname");
     print("10th Grade: $mark1");
-    print("HSE School Name: $Schoolname2");
+    print("HSE School Name: $schoolname2");
     print("+2 Total Grade: $mark2");
   }
 
