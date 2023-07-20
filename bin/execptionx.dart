@@ -19,7 +19,7 @@ void main() {
   //   //e - object of exception class (Exception class is built in class and super class of all exception classes)
   //   print("Exception occurred $e");
   // } catch (e) {
-  //   this will be a dead code since all type of excception class ()
+  //   this will be a dead code since all type of exception class ()
   // }
 
   try {
